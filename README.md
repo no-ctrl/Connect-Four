@@ -1,3 +1,6 @@
+
+![CONNECT_FOUR](https://github.com/user-attachments/assets/f3775bd3-fbbf-431b-979c-9727a2d2e496)
+
 # C4
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
