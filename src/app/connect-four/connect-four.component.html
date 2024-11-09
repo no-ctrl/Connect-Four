@@ -1,0 +1,10 @@
+<div class="connect-four">
+  <div class="board">
+    <div *ngFor="let row of pieces; let rowIndex = index" class="row">
+      <div *ngFor="let col of row; let colIndex = index" class="col" (click)="dropPiece(colIndex)">
+        <div class="piece" [ngClass]="pieces[rowIndex][colIndex] === null ? '' : pieces[rowIndex][colIndex]"></div>
+      </div>
+    </div>
+  </div>
+  <app-won-dialog *ngIf="showCongrats" [winnerPlayer]="winnerPlayer"></app-won-dialog>
+</div>
